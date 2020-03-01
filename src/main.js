@@ -6,6 +6,8 @@ import store from './store'
 // 全局css样式
 import './assets/css/index.css'
 
+import './main.vant'
+
 Vue.config.productionTip = false
 
 new Vue({

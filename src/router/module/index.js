@@ -6,12 +6,12 @@ const index = {
     children: [
         {
             path: 'home',
-            name: 'home',
+            name: '/index/home',
             component: () => import('../../views/index/Home'),
         },
         {
             path: 'self',
-            name: 'self',
+            name: '/index/self',
             component: () => import('../../views/index/Self'),
         }
     ]
