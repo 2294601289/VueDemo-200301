@@ -1,7 +1,6 @@
 <template>
     <div class="Home">
         首页
-        <router-link to="/news/search">新闻</router-link>
         <ul>
             <li v-for="(item,index) in 50" :key="index">{{item}}</li>
         </ul>

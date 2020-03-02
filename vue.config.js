@@ -84,7 +84,7 @@ module.exports = {
         https: false,
         // 让浏览器 overlay 同时显示警告和错误
         overlay: {
-            warnings: true,
+            warnings: false,
             errors: true
         },
         //
